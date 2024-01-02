@@ -220,6 +220,50 @@ namespace EfCoreRelation.Migrations
                     b.ToTable("employees");
                 });
 
+            modelBuilder.Entity("EfCoreRelation.Entity.Image.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<byte[]>("FileData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("images");
+                });
+
+            modelBuilder.Entity("EfCoreRelation.Entity.Image.TblProductimage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Productcode")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("productcode");
+
+                    b.Property<byte[]>("Productimage")
+                        .HasColumnType("image")
+                        .HasColumnName("productimage");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("tbl_productimage");
+                });
+
             modelBuilder.Entity("EfCoreRelation.Entity.Register.Register", b =>
                 {
                     b.Property<int>("Id")
@@ -233,11 +277,9 @@ namespace EfCoreRelation.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MobileNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("password")

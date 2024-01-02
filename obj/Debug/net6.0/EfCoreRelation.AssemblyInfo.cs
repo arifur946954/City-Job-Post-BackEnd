@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EfCoreRelation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c97a3de2aa77d1d6bdd9dd931335ebfb7cd18b62")]
 [assembly: System.Reflection.AssemblyProductAttribute("EfCoreRelation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EfCoreRelation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

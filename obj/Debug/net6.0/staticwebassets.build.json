@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "SEN3pHMvlb0MP5lYGQSYeTxvJpqOEgP2PiZxIXTc4rs=",
+  "Hash": "vAylTWBGSb+F77ywcrzet4YX3FB4eCigMjKYVUACXCE=",
   "Source": "EfCoreRelation",
   "BasePath": "_content/EfCoreRelation",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "EfCoreRelation\\wwwroot",
+      "Source": "EfCoreRelation",
+      "ContentRoot": "D:\\project_2\\4.1 Application Form\\BackEnd\\EfCoreRelation\\EfCoreRelation\\wwwroot\\",
+      "BasePath": "_content/EfCoreRelation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\project_2\\4.1 Application Form\\BackEnd\\EfCoreRelation\\EfCoreRelation\\wwwroot\\Upload\\product01\\.png",
+      "SourceId": "EfCoreRelation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_2\\4.1 Application Form\\BackEnd\\EfCoreRelation\\EfCoreRelation\\wwwroot\\",
+      "BasePath": "_content/EfCoreRelation",
+      "RelativePath": "Upload/product01/.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\product01\\.png"
+    },
+    {
+      "Identity": "D:\\project_2\\4.1 Application Form\\BackEnd\\EfCoreRelation\\EfCoreRelation\\wwwroot\\Upload\\product02\\.png",
+      "SourceId": "EfCoreRelation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_2\\4.1 Application Form\\BackEnd\\EfCoreRelation\\EfCoreRelation\\wwwroot\\",
+      "BasePath": "_content/EfCoreRelation",
+      "RelativePath": "Upload/product02/.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\product02\\.png"
+    }
+  ]
 }

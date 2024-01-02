@@ -2,6 +2,7 @@
 using EfCoreRelation.Entity.AccademicQualificationDetails;
 using EfCoreRelation.Entity.Address;
 using EfCoreRelation.Entity.Employees;
+using EfCoreRelation.Entity.Image;
 using EfCoreRelation.Entity.Register;
 using EfCoreRelation.Entity.WorkExpreanceDetails;
 using Microsoft.EntityFrameworkCore;
@@ -13,9 +14,9 @@ namespace EfCoreRelation.Data
         public AppDBContext(DbContextOptions options) : base(options)
         {
         }
-
-     
-       public DbSet<Register> registers { get; set; }
+        public DbSet<TblProductimage> tblProductimages { get; set; }
+       // public DbSet<Image> images { get; set; }
+        public DbSet<Register> registers { get; set; }
         public DbSet<Employee> employees { get; set; }
         //all address table 
         public DbSet<EmployeeAddress> employeeAddresses { get; set; }

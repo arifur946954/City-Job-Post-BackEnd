@@ -32,11 +32,10 @@ builder.Services.AddDbContext<AppDBContext>(options =>
 
 
 
+
+
 //database connection Inmemori
 /*builder.Services.AddDbContext<ConnectionStrings>(options => options.UseInMemoryDatabase("ContractsDB"));*/
-
-
-
 
 
 
